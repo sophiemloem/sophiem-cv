@@ -7,7 +7,8 @@ body{
 .header{
     display: flex;
     justify-content: space-around;
-    background: rgba(11, 11, 112, 0.726);  
+    background: rgba(11, 11, 112, 0.726); 
+    width: 100%; 
 }
 
 .menu{
@@ -595,7 +596,7 @@ section{
     }
 }
 
-@media(max-width:528px){
+@media(max-width:414px){
     .from{
         flex-wrap: wrap;
         width: 90%;
@@ -654,12 +655,14 @@ section{
 }
 .group-pic{
      background: white;
-     width: 80%; 
-     margin: auto;
+     width: 100%; 
+     margin-left:2.5rem ;
      margin-bottom: 1rem;
 }
 .middle{
     height: 41.5vh;
+    width: 100%;
+    margin-left:2.5rem;
 }
 .middle h4{
     text-align: center;
@@ -692,6 +695,10 @@ section{
     padding: 1.5rem;
     color: white;
 }
+.footer{
+    background: black;
+    width: 100%;
+}
 
 @media(max-width:834px){
     .box-search{
@@ -700,12 +707,16 @@ section{
     .middle{
         height: 56vh;
     }
+    .middle{
+        width: 120%;
+    }
     .pic{
         display: grid;
         grid-template-columns:1fr 1fr;
     }
     .img{
         margin-bottom: 6rem;
+        margin-left: 3rem;
     }
     .download{
         background: blue;
@@ -715,10 +726,24 @@ section{
         margin-left: 15rem;
         color: white;
     }
+    .header{
+        width: 143%;
+    }
+    .footer{
+        width: 135%;
+        background: black;
+    }
+    .group-pic{
+        width: 120%;
+        margin-left: 5rem;
+    }
+    .middle{
+        margin-left: 5rem;
+    }
 
 }
 
-@media(max-width:528px){
+@media(max-width:428px){
     .botton{
         font-size:1rem;
         margin-right: 10rem;
@@ -726,6 +751,15 @@ section{
         text-align: center;
         /* margin-top: 1rem; */
         margin-left: -1rem;
+    }
+    .header{
+        width: 120%;
+    }
+    .footer{
+        width: 105%;
+    }
+    .middle{
+        margin-top: -16.5rem;
     }
     p{
         font-size: 0.8rem;
@@ -757,23 +791,30 @@ section{
         display: none;
     }
     .middle{
-        height: 56vh;
+        height: 45vh;
     }
     .pic{
         display: grid;
         grid-template-columns:1fr;
     }
     .img{
-        margin-left: 4rem;
+        margin-left: 2.5rem;
         width: 90%;
     }
-    
     .download{
         margin-left: 10rem;  
     }
     .btn{
      margin-left: 20vh;
     }
+    .group-pic{
+        width: 90%;
+    }
+    .middle{
+        width: 90%;
+    }
+    .download{
+        margin-left: 10rem;   }
     
 }
 

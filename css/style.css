@@ -108,7 +108,7 @@ span.small{
 }
 @media(max-width:834px){
     .boxing{
-        margin-top: -20rem;
+        margin-top: -18rem;
     }
     .high img{
         margin-top:2rem;
@@ -124,17 +124,20 @@ span.small{
         margin: 3px;
     }
     .word p{
-        margin-left:0;
+        padding: 0;
     }
     .botton{
         text-align: center;
         font-weight: bold;
         font-size: 2.7rem;
-        margin-bottom: 4rem;
+        margin-bottom: 6.7rem;
         margin-left: -1rem;
     }
     .box-search{
        padding: 4px;
+    }
+    .letter h1{
+        font-size: 1.5rem;
     }
 }
 
@@ -186,7 +189,7 @@ span.small{
         width: 100%;
         margin: auto;
         background: rgba(27, 114, 117, 0.993);
-        margin-top: -10rem;
+        margin-top: -12rem;
     }
     .word{
         margin-top: 1rem;
@@ -337,6 +340,9 @@ span.small{
     .words{
         font-size: 0.8rem;
     }
+    .bodies{
+        width: 70%;
+    }
 }
 @media(max-width:428px){
     .botton{
@@ -428,7 +434,7 @@ margin-top: -17rem;
     margin-bottom: 0.6rem;
     width: 80%;
     text-align: center;
-    margin-left: 3rem;
+    margin-left: 4rem;
 }
 
 .boxes h1{
@@ -459,9 +465,9 @@ margin-top: -17rem;
         display: none;
     }
     .title{
-        height: 53.8vh;
-        margin-left: 6rem;
-        height: 56vh;
+        margin-left: 5.4rem;
+        height: 62vh;
+        margin-top: -20rem;
     }
     .space{
         padding: 1.2rem;
@@ -531,7 +537,7 @@ margin-top: -17rem;
     }
     .title{
         width: 117%;
-        margin-top: -10rem;
+        margin-top: -15rem;
         background:rgba(27, 114, 117, 0.993);
         height: 46.5vh;
         margin-left: 4rem;
@@ -573,7 +579,7 @@ section{
     width: 80%;
     margin: auto;
     background: rgba(27, 114, 117, 0.993);
-    height: 45vh;
+    height: 46vh;
     margin-top: -20rem;
 }
 .contain{
@@ -677,6 +683,7 @@ section{
     .from{
         flex-wrap: wrap;
         width: 90%;
+        margin-top: -5rem;
     }
     .middles{
         width: 100%;
@@ -753,7 +760,7 @@ section{
     width: 80%;
     margin: auto;
     background: rgba(27, 114, 117, 0.993);
-    height: 45vh;
+    height: 42vh;
     margin-top: -20rem;
 }
 .middlese h4{
@@ -793,7 +800,7 @@ section{
         display: none;
     }
     .middlese{
-        height: 62vh;
+        height: 56vh;
     }
     .pic{
         display: grid;
@@ -801,6 +808,7 @@ section{
     }
     .img{
         margin-bottom: 6rem;
+        margin-left: 4rem;
     }
     .download{
         background: blue;
@@ -812,7 +820,6 @@ section{
     }
 
 }
-
 @media(max-width:428px){
     .botton{
         font-size:1rem;
@@ -865,6 +872,7 @@ section{
     .img{
         margin-left: 4rem;
         width: 90%;
+        margin-top: 1rem;
     }
     
     .download{
@@ -883,8 +891,9 @@ section{
     }
     .middlese{
         width: 105%;
-        margin-top: -15rem;
+        margin-top: -17rem;
         margin-left: 7rem;
+        height: 47vh;
     }
     .para p{
         margin-right: 5px;

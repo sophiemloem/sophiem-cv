@@ -7,10 +7,8 @@ body{
 .header{
     display: flex;
     justify-content: space-around;
-    background: rgba(11, 11, 112, 0.726); 
-    width: 100%; 
+    background: rgba(11, 11, 112, 0.726);  
 }
-
 .menu{
     display: flex; 
     margin-bottom: 20rem;
@@ -63,6 +61,13 @@ span.small{
     background: rgba(27, 114, 117, 0.993);
     margin-top: -19.5rem;
 }
+.boxing{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    background: rgba(27, 114, 117, 0.993);
+    margin-top: -19.5rem;
+}
 .two-part{
     width: 80%;
     margin: auto;
@@ -102,7 +107,7 @@ span.small{
     margin-left: 0.7rem;
 }
 @media(max-width:834px){
-    .box{
+    .boxing{
         margin-top: -20rem;
     }
     .high img{
@@ -176,9 +181,9 @@ span.small{
         display: flex; 
         margin-bottom: 11rem;
     }
-    .box{
+    .boxing{
         display: flex;
-        width: 80%;
+        width: 100%;
         margin: auto;
         background: rgba(27, 114, 117, 0.993);
         margin-top: -10rem;
@@ -206,8 +211,22 @@ span.small{
     .contact{
         font-size: 0.7rem;
     }
-    
+    .footer{
+        width: 120%;
+    }
+    .header{
+        width: 135%;
+    }
+    .two-part{
+        width: 106%;
+        margin-left: 6rem;
+    }
+    .boxing{
+        width: 106%;
+        margin-left: 6rem;
+    }
 }
+
 
 .word{
     margin-bottom: 4rem;
@@ -266,21 +285,21 @@ span.small{
     text-align: center;
     margin-right: 2rem;
 }
-.group img{
-    width: 80%;
-    height: 80%;
+.group1 img{
+    width: 50%;
+    height: 70%;
     margin-top: 1rem;
-    /* margin-left: 2rem; */
+    margin-left: -2rem;
 }
-.body{
-    width: 75%;
+.bodies{
+    width: 85%;
     margin: auto;
     background: white;
 }
 .frist{
     display: grid;
     grid-template-columns:repeat(3,1fr) ;
-    gap: 5px;
+    gap: 3px;
     margin-bottom: 8rem;
 
 }
@@ -364,34 +383,55 @@ span.small{
         display: grid;
         grid-template-columns:1fr;
         gap: 5px;
-        /* width: 70%; */
+        width: 100%;
     }
     .group1 img{
         height: 73%;
-        width: 80%;
+        width: 70%;
         margin-top: 2rem;
+        margin-left: -1.8rem;
 
     }
     .group{
-        margin-top: -4.4rem;
+        margin-top: 10rem;
         width: 100%;
         text-align: center;
     }
     p{
         font-size: 10px;
     }
+    .bodies{
+        width: 107%;
+        margin-left: 5.5rem;
+    }
 }
 
 
 /* Pages Hometown */
+.bodyes{
+    width: 75%;
+    margin: auto;
+    background: white;
+}
 .title{
 text-align: center;
 margin-left: 27rem;
 color: white; 
+width: 80%;
 height: 39vh;
+margin: auto;
+background: teal;
+margin-top: -17rem;
 
 }
-.box h1{
+.grouper{
+    margin-bottom: 0.6rem;
+    width: 80%;
+    text-align: center;
+    margin-left: 3rem;
+}
+
+.boxes h1{
     text-align: center;
 }
 .space{
@@ -407,6 +447,12 @@ height: 39vh;
 }
 .under{
     font-size: 1rem;
+}
+.group3 img {
+    width: 100%;
+}
+.group3{
+    margin-left: 3rem;
 }
 @media(max-width:834px){
     .box-search{
@@ -435,8 +481,7 @@ height: 39vh;
         font-weight: bold;
     }
 }
-@media(max-width:528px){
-    
+@media(max-width:428px){
     .botton{
         font-size:1rem;
         margin-right: 10rem;
@@ -481,9 +526,41 @@ height: 39vh;
     .space{
         padding: 14px;
     }
+    .title{
+        width: 100%;
+    }
+    .title{
+        width: 117%;
+        margin-top: -10rem;
+        background:rgba(27, 114, 117, 0.993);
+        height: 46.5vh;
+        margin-left: 4rem;
+    }
+    .header{
+        width: 150%;
+    }
+    .footer{
+        width: 135%;
+    }
+    .bodyes{
+        width: 110%;
+        margin-left:4rem;
+        background: white;
+    }
+    .grouper{
+        margin-top: -10rem;
+        width: 100%;
+        text-align: center;
+    }
+    .group3{
+        margin-left: -5rem;
+    }
+    .group3 img{
+        width: 70%; 
+    }
 }
 
-/* contace pages */
+/* contact pages */
 .blog{
     margin-top: -10rem;
 }
@@ -492,10 +569,10 @@ section{
     font-weight: bold;
     color: white;
 }
-.middle{
+.middles{
     width: 80%;
     margin: auto;
-    background: rgb(15, 109, 138);
+    background: rgba(27, 114, 117, 0.993);
     height: 45vh;
     margin-top: -20rem;
 }
@@ -588,7 +665,7 @@ section{
     .map iframe{
         margin-top: 2rem;
     }
-    .middle{
+    .middles{
         height: 62vh;
     }
     .under{
@@ -596,10 +673,20 @@ section{
     }
 }
 
-@media(max-width:414px){
+@media(max-width:428px){
     .from{
         flex-wrap: wrap;
         width: 90%;
+    }
+    .middles{
+        width: 100%;
+        margin-top: -15rem;
+        margin-left: 7rem;
+    }
+    .contain{
+        width: 100%;
+        margin-left: 7rem;
+
     }
     .blog{
         width: 90%;
@@ -651,20 +738,25 @@ section{
 .pic{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-   
+}
+.middlese p{
+    color: white;
+    margin: 5px;
 }
 .group-pic{
      background: white;
-     width: 100%; 
-     margin-left:2.5rem ;
+     width: 80%; 
+     margin: auto;
      margin-bottom: 1rem;
 }
-.middle{
-    height: 41.5vh;
-    width: 100%;
-    margin-left:2.5rem;
+.middlese{
+    width: 80%;
+    margin: auto;
+    background: rgba(27, 114, 117, 0.993);
+    height: 45vh;
+    margin-top: -20rem;
 }
-.middle h4{
+.middlese h4{
     text-align: center;
     font-weight: bold;
     font-size: 1.5rem;
@@ -695,20 +787,13 @@ section{
     padding: 1.5rem;
     color: white;
 }
-.footer{
-    background: black;
-    width: 100%;
-}
 
 @media(max-width:834px){
     .box-search{
         display: none;
     }
-    .middle{
-        height: 56vh;
-    }
-    .middle{
-        width: 120%;
+    .middlese{
+        height: 62vh;
     }
     .pic{
         display: grid;
@@ -716,7 +801,6 @@ section{
     }
     .img{
         margin-bottom: 6rem;
-        margin-left: 3rem;
     }
     .download{
         background: blue;
@@ -725,20 +809,6 @@ section{
         padding: 1.5rem;
         margin-left: 15rem;
         color: white;
-    }
-    .header{
-        width: 143%;
-    }
-    .footer{
-        width: 135%;
-        background: black;
-    }
-    .group-pic{
-        width: 120%;
-        margin-left: 5rem;
-    }
-    .middle{
-        margin-left: 5rem;
     }
 
 }
@@ -751,15 +821,6 @@ section{
         text-align: center;
         /* margin-top: 1rem; */
         margin-left: -1rem;
-    }
-    .header{
-        width: 120%;
-    }
-    .footer{
-        width: 105%;
-    }
-    .middle{
-        margin-top: -16.5rem;
     }
     p{
         font-size: 0.8rem;
@@ -790,17 +851,22 @@ section{
     .box-search{
         display: none;
     }
-    .middle{
-        height: 45vh;
+    .middlese{
+        height: 50vh;
+    }
+    .middlese h4{
+        font-size: 1.4rem;
+        font-weight: normal;
     }
     .pic{
         display: grid;
         grid-template-columns:1fr;
     }
     .img{
-        margin-left: 2.5rem;
+        margin-left: 4rem;
         width: 90%;
     }
+    
     .download{
         margin-left: 10rem;  
     }
@@ -808,14 +874,22 @@ section{
      margin-left: 20vh;
     }
     .group-pic{
-        width: 90%;
+        width: 105%;
+        margin-left: 7rem;
     }
-    .middle{
-        width: 90%;
+    .btn{
+        padding: 1rem;
+        width: 40%;
     }
-    .download{
-        margin-left: 10rem;   }
-    
+    .middlese{
+        width: 105%;
+        margin-top: -15rem;
+        margin-left: 7rem;
+    }
+    .para p{
+        margin-right: 5px;
+    }
+
 }
 
 
